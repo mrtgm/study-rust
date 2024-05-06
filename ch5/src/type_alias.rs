@@ -51,7 +51,8 @@ pub enum Task {
     Done,
 }
 
-use crate::type_alias::Task::*;
+use crate::test;
+use Task::*;
 
 fn type_alias() {
     fn new_user(name: UserName, id: Id, created: Timestamp) -> User {
